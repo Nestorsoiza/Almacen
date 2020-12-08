@@ -4,7 +4,7 @@ public class BebidasAzucaradas extends Bebida {
 	private double porcentajeAzucar;
 	private boolean promocion;
 	
-	public BebidasAzucaradas(double cantidad, double precio, String marca, double porcentajeAzucar,
+	public BebidasAzucaradas(double cantidad, double precio, double porcentajeAzucar, String marca,
 			boolean promocion) {
 		super(cantidad, precio, marca);
 		this.porcentajeAzucar = porcentajeAzucar;

@@ -3,7 +3,7 @@ package almacenillo;
 public class AguaMineral extends Bebida {
 	private String origen;
 
-	public AguaMineral(double cantidad, double precio, String marca, String origen) {
+	public AguaMineral(String marca, double precio, double cantidad, String origen) {
 		super(cantidad, precio, marca);
 		this.origen = origen;
 	}
